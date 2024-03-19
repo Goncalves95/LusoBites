@@ -1,5 +1,5 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #152e49;
 }
 
 .brand {
@@ -30,11 +30,12 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #152e49;
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #152e49;
+    color: #fff;
 }
 
 .card {
@@ -106,7 +107,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: green;
 }
 
 .post-title {
@@ -166,4 +167,8 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+.linebreaks {
+    border-top: #fff solid;
 }
