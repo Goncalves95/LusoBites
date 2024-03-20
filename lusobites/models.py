@@ -18,6 +18,8 @@ class Post(models.Model):
     )
     featured_image = CloudinaryField('image', default='placeholder')
     content = models.TextField()
+    ingredients_content = models.TextField(blank=True, default='')
+    method_content = models.TextField(blank=True, default='')
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)

@@ -46,9 +46,9 @@
                 <h1 class="card-title">{{ post.title }}</h1>
                 <hr>
                 <h2>Ingredients:</h2>
-                <p class="card-text">{{ post.ingredients_content }}</p>
+                <p class="card-text">{{ post.ingredients_content | safe }}</p>
                 <h2>Method:</h2>
-                <p class="card-text">{{ post.content | safe  }}</p>
+                <p class="card-text">{{ post.method_content | safe  }}</p>
                 <a class="btn btn-info mb-3" href="{% url 'home' %}"><i class="fa-solid fa-backward"></i> Back to Home Page</a>
             </div>
         </div>
