@@ -8,7 +8,30 @@ Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
 
 ![Responsiveness of the website]()
 
-## :ledger: Index
+## Table of content
+
+- [Chef Prime](#chef-prime)
+  - [Table of content](#table-of-content)
+  - [Design and User Experience](#design-and-user-experience)
+    - [Design](#design)
+  - [Layout][def]
+    - [Navbar and footer](#navbar-and-footer)
+    - [Home Page](#home-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Page](#contact-page)
+    - [Booked Page](#booked-page)
+    - [Performance](#performance)
+  - [Deployment](#deployment)
+    - [Live Website][def2]
+  - [Testing](#testing)
+    - [Tests](#tests)
+    - [Fixed Bugs](#fixed-bugs)
+    - [Validator Testing](#validator-testing)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+  - [Technologies used](#technologies-used)
+
 
 ## User Experience (UX)
 
@@ -355,3 +378,6 @@ The site is now live and operational.
 ### Code
 
 ### Media and Content
+
+[def]: #layout
+[def2]: #live-website
