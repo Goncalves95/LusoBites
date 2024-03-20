@@ -8,6 +8,8 @@ Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
 
 ![Responsiveness of the website]()
 
+## :ledger: Index
+
 ## User Experience (UX)
 
 A visitor to our blog can be an amateur in the kitchen or even a professional to increase their knowledge of Portuguese cuisine. They are eager to expand and enrich their recipe collection or simply share them with others.
