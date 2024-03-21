@@ -14,6 +14,11 @@ class PostList(generic.ListView):
     template_name = "lusobites/index.html"
     paginate_by = 6
 
+class Recipe(generic.ListView):
+    queryset = Post.objects.filter(status=1)
+    template_name = "lusobites/recipe.html"
+    paginate_by = 7
+
 
 def post_detail(request, slug):
     """

@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #fff;
 }
@@ -35,7 +37,6 @@ body {
 
 .main-bg {
     background-color: #fff;
-    color: #fff;
 }
 
 .card {
@@ -179,7 +180,6 @@ body{margin-top:20px;}
 .cover-background {
     position: relative !important;
     background-size: cover !important;
-    overflow: hidden !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
@@ -201,6 +201,7 @@ section {
 }
 .text-center {
     text-align: center!important;
+    color: black;
 }
 .error-page h1 {
     font-size: 200px;

@@ -1,7 +1,17 @@
 from django.contrib import admin
-from .models import Post, Comment
+from .models import Post, Comment, Category
 from django_summernote.admin import SummernoteModelAdmin
 
+# Register your models here.
+# This will allow you to create, update and delete blog posts from the admin panel.
+
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    """
+    Allows admin to manage categories via the admin panel
+    """
+
+    list_display = ('admin', 'name')
 
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
@@ -13,6 +23,5 @@ class PostAdmin(SummernoteModelAdmin):
     summernote_fields = ('content', 'ingredients_content', 'method_content')
     
 
-# Register your models here.
-# This will allow you to create, update and delete blog posts from the admin panel.
+
 admin.site.register(Comment)
