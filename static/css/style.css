@@ -176,6 +176,13 @@ body {
 
 /* ---------------------------- Style to ERROR PAGES ----------------------------*/
 
+footer > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ---------------------------- Style to ERROR PAGES ----------------------------*/
+
 body{margin-top:20px;}
 .cover-background {
     position: relative !important;
