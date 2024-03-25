@@ -236,9 +236,10 @@ section {
     font-size: 200px;
     line-height: 1;
     font-weight: 600;
+    color: #fff;
 }
 .text-secondary {
-    color: #15395A !important;
+    color: #fff !important;
 }
 .mb-4 {
     margin-bottom: 1.5rem!important;
