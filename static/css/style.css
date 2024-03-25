@@ -230,18 +230,18 @@ section {
 }
 .text-center {
     text-align: center!important;
-    color: black;
+    color: #fff!important;
 }
 .error-page h1 {
     font-size: 200px;
     line-height: 1;
     font-weight: 600;
-    color: #fff;
+    color: #fff!important;
 }
 
 .text-secondary {
     color: #fff !important;
-    font-size: 200px;
+    font-size: 200px!important;
 }
 
 .mb-4 {
