@@ -1,7 +1,29 @@
 
+/* ---------------------------- Style to GERAL style ----------------------------*/
 
 body {
     background-color: #fff;
+}
+
+/* ---------------------------- Style to HERO Section ----------------------------*/
+.site-heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-heading h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-heading img {
+    background-repeat: no-repeat;
+}
+
+.col-md-5 img {
+    width: 100%;
 }
 
 .brand {
@@ -174,7 +196,7 @@ body {
     border-top: #fff solid;
 }
 
-/* ---------------------------- Style to ERROR PAGES ----------------------------*/
+/* ---------------------------- Style to FOOTER ----------------------------*/
 
 footer > a {
     text-decoration: none;
