@@ -95,6 +95,15 @@ body {
     text-transform: uppercase;
 }
 
+header.masthead {
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+}
+
+
 .masthead {
     overflow: hidden;
     position: relative;
