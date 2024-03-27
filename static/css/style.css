@@ -5,6 +5,11 @@ body {
     background-color: #fff;
 }
 
+.fa-solid, .fas {
+    /* font-weight: 900; */
+    color: #fff;
+    font-size: 20px;
+}
 
 /* ---------------------------- Style to HERO Section ----------------------------*/
 .site-heading {
