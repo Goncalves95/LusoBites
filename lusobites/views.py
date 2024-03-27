@@ -3,6 +3,7 @@ from django.views import generic
 from django.contrib import messages
 from django.views import generic, View
 from django.http import HttpResponseRedirect
+from django.contrib.postgres.search import SearchVector
 from .models import Post, Comment
 from .forms import CommentForm
 
@@ -18,6 +19,17 @@ class Recipe(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "lusobites/recipes.html"
     paginate_by = 5
+
+
+def search_recepi(request):
+    if request.method == 'POST':
+        searched = request.POST.get('searched')
+        Recipes = Post.objects.annotate(search=SearchVector('title', 'ingredients_content'),).filter(search=searched)
+        return render(request, 'search_recepi.html', {'searched': searched, 'recipe': Recipes})
+
+    else:
+        return render(request, 'search_recepi.html', {'searched': searched, 'recipe': Recipes})
+
 
 
 def post_detail(request, slug):
