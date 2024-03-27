@@ -5,6 +5,7 @@ body {
     background-color: #fff;
 }
 
+
 /* ---------------------------- Style to HERO Section ----------------------------*/
 .site-heading {
     text-align: center;
@@ -196,8 +197,16 @@ body {
     border-top: #fff solid;
 }
 
+/* ---------------------------- Style to INDEX PAGE ----------------------------*/
+
 .product-item {
     @media (min-width: 992px) {
+        .product-item-title {
+            position: relative;
+            z-index: 1;
+            margin-bottom: -3rem;
+        }
+
         .product-item-title {
             position: relative;
             z-index: 1;
@@ -217,6 +226,32 @@ body {
             max-width: 50vw;
         }
     }
+}
+
+.page-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+    
+.section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+
+.bg-faded {
+    background-color: lighten(#e6a756, 25%);
 }
 
 /* ---------------------------- Style to FOOTER ----------------------------*/
