@@ -16,8 +16,8 @@ class PostList(generic.ListView):
 
 class Recipe(generic.ListView):
     queryset = Post.objects.filter(status=1)
-    template_name = "lusobites/recipe.html"
-    paginate_by = 7
+    template_name = "lusobites/recipes.html"
+    paginate_by = 5
 
 
 def post_detail(request, slug):
