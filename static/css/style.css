@@ -284,27 +284,27 @@ header .masthead .post-heading .meta a {
 
 /* ---------------------------- Style to INDEX PAGE ----------------------------*/
 
-.product-item {
-    @media (min-width: 992px) {
 
-        .product-item-title {
-            position: relative;
-            z-index: 1;
-        }
+@media (min-width: 992px) {
 
-        .product-item-img {
-            position: relative;
-            z-index: 0;
-            max-width: 60vw;
-        }
+    .product-item-title {
+        position: relative;
+        z-index: 1;
+    }
 
-        .product-item-description {
-            position: relative;
-            z-index: 1;
-            max-width: 50vw;
-        }
+    .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
+    }
+
+    .product-item-description {
+        position: relative;
+        z-index: 1;
+        max-width: 50vw;
     }
 }
+
 
 .page-section {
     margin-top: 1rem;
@@ -331,7 +331,7 @@ header .masthead .post-heading .meta a {
 
 
 .bg-faded {
-    background-color: lighten(#e6a756, 25%);
+    background-color: #e6a756;
 }
 
 /* ---------------------------- Style to FOOTER ----------------------------*/
