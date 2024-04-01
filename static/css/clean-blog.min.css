@@ -180,7 +180,7 @@ img::-moz-selection {
 }
 
 
-header.masthead .overlay {
+header .masthead .overlay {
     position: absolute;
     top: 0;
     left: 0;
