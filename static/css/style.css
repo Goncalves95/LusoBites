@@ -99,14 +99,52 @@ header .masthead {
     background-size: cover;
 }
 
-header .masthead .overlay {
+
+
+.masthead {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+}
+
+.masthead-text {
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+    background-color: #212529;
+    opacity: .5;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #445261;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: #212529;
-    opacity: .5;
+    opacity: .2;
+    z-index: 1;
 }
 
 header .masthead .page-heading,
@@ -190,39 +228,6 @@ header .masthead .post-heading .meta a {
     header .masthead .post-heading .subheading {
         font-size: 30px;
     }
-}
-
-
-.masthead {
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-
-.masthead-text {
-    background-color: #445261;
-    color: white;
-    position: relative;
-}
-
-.masthead-image {
-    position: relative;
-    overflow: hidden;
-}
-
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
 }
 
 /* ---------------------------- Style to RECIPES PAGE ----------------------------*/
@@ -310,16 +315,10 @@ header .masthead .post-heading .meta a {
 
 .product-item {
     @media (min-width: 992px) {
-        .product-item-title {
-            position: relative;
-            z-index: 1;
-            margin-bottom: -3rem;
-        }
 
         .product-item-title {
             position: relative;
             z-index: 1;
-            margin-bottom: -3rem;
         }
 
         .product-item-img {
@@ -331,7 +330,6 @@ header .masthead .post-heading .meta a {
         .product-item-description {
             position: relative;
             z-index: 1;
-            margin-top: -3rem;
             max-width: 50vw;
         }
     }
