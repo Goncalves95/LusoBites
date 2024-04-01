@@ -260,13 +260,13 @@ header .masthead .post-heading .meta a {
 
 .btn-signup,
 .btn-edit {
-    background-color: #188181;
+    background-color: #188181 !important;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #152e49;
+    background-color: #fff;
     color: #23BBBB;
 }
 
@@ -282,20 +282,20 @@ header .masthead .post-heading .meta a {
 }
 
 .btn-like {
-    color: #E84610;
+    color: #E84610 !important;
     border: none;
-    background: transparent;
+    background: transparent !important;
 }
 
 .btn-delete {
     color: #fff;
-    background: #E84610;
+    background: #E84610 !important;
 }
 
 .btn-like:hover,
 .btn-like:active {
     color: #E84610;
-    background: transparent;
+    background: transparent !important;
     border: none;
 }
 
