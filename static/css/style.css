@@ -231,6 +231,16 @@ header .masthead .post-heading .meta a {
     z-index: 100;
 }
 
+/* ---------------------------- Style to RECIPES PAGE ----------------------------*/
+
+.card-img-top {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
 .post-link {
     text-decoration: none;
     color: #445261;
@@ -259,7 +269,7 @@ header .masthead .post-heading .meta a {
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
+    background-color: #152e49;
     color: #23BBBB;
 }
 
