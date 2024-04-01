@@ -1,5 +1,31 @@
+
+/* ---------------------------- Style to GERAL style ----------------------------*/
+
 body {
-    background-color: #F9FAFC;
+    background-color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* ---------------------------- Style to HERO Section ----------------------------*/
+.site-heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-heading h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-heading img {
+    background-repeat: no-repeat;
+}
+
+.col-md-5 img {
+    width: 100%;
 }
 
 .brand {
@@ -30,11 +56,11 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #152e49;
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #fff;
 }
 
 .card {
@@ -66,37 +92,121 @@ body {
 }
 
 .masthead {
-    margin-top: 10px;
     overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 33vh;
     width: 100%;
+    background-size: cover;
+    z-index: 1;
+    background-image: url('https://afar.brightspotcdn.com/dims4/default/6a41642/2147483647/strip/false/crop/1440x720+0+0/resize/1440x720!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2F91%2Fe5%2F098422d443269033550b65c333b2%2Fportugese-food-pastel-de-nata-tatiana-bralnina-shutterstock.jpg');
 }
 
 .masthead-text {
-    background-color: #445261;
-    color: white;
+    color: #fff;
     position: relative;
+    z-index: 2;
 }
 
-.masthead-image {
-    position: relative;
-    overflow: hidden;
-}
-
-.masthead-image:after {
-    content: "";
+.overlay {
     position: absolute;
     top: 0;
-    right: 90%;
+    left: 0;
     height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
+    width: 100%;
+    background-color: #212529;
+    opacity: .4;
+    z-index: 2;
+}
+
+header .masthead .page-heading,
+header .masthead .post-heading,
+header .masthead .site-heading {
+    padding: 200px 0 150px;
+    color: #fff;
+}
+
+@media only screen and (min-width:768px) {
+
+    header .masthead .page-heading,
+    header .masthead .post-heading,
+    header .masthead .site-heading {
+        padding: 200px 0;
+    }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+    text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+header .masthead .page-heading .subheading,
+header .masthead .site-heading .subheading {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width:768px) {
+
+    header .masthead .page-heading h1,
+    header .masthead .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+header .masthead .post-heading h1 {
+    font-size: 35px;
+}
+
+header .masthead .post-heading .meta,
+header .masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+}
+
+header .masthead .post-heading .subheading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header .masthead .post-heading .meta {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Lora, 'Times New Roman', serif;
+}
+
+header .masthead .post-heading .meta a {
+    color: #fff;
+}
+
+@media only screen and (min-width:768px) {
+    header .masthead .post-heading h1 {
+        font-size: 55px;
+    }
+
+    header .masthead .post-heading .subheading {
+        font-size: 30px;
+    }
+}
+
+/* ---------------------------- Style to RECIPES PAGE ----------------------------*/
+
+.card-img-top {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .post-link {
@@ -106,7 +216,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: green;
 }
 
 .post-title {
@@ -121,7 +231,7 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #188181;
+    background-color: #188181 !important;
     color: #fff;
 }
 
@@ -143,20 +253,20 @@ body {
 }
 
 .btn-like {
-    color: #E84610;
+    color: #E84610 !important;
     border: none;
-    background: transparent;
+    background: transparent !important;
 }
 
 .btn-delete {
     color: #fff;
-    background: #E84610;
+    background: #E84610 !important;
 }
 
 .btn-like:hover,
 .btn-like:active {
     color: #E84610;
-    background: transparent;
+    background: transparent !important;
     border: none;
 }
 
@@ -166,4 +276,119 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+.linebreaks {
+    border-top: #fff solid;
+}
+
+/* ---------------------------- Style to INDEX PAGE ----------------------------*/
+
+.product-item {
+    @media (min-width: 992px) {
+
+        .product-item-title {
+            position: relative;
+            z-index: 1;
+        }
+
+        .product-item-img {
+            position: relative;
+            z-index: 0;
+            max-width: 60vw;
+        }
+
+        .product-item-description {
+            position: relative;
+            z-index: 1;
+            max-width: 50vw;
+        }
+    }
+}
+
+.page-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+    
+.section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+
+.bg-faded {
+    background-color: lighten(#e6a756, 25%);
+}
+
+/* ---------------------------- Style to FOOTER ----------------------------*/
+
+footer > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .fa-solid, .fas {
+    /* font-weight: 900; */
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ---------------------------- Style to ERROR PAGES ----------------------------*/
+
+body{margin-top:20px;}
+
+.cover-background {
+    position: relative !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.p-0 {
+    padding: 0!important;
+}
+section {
+    padding: 120px 0;
+    overflow: hidden;
+    background: #fff;
+}
+
+.error-page {
+    background-color: #BABABA4A;
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+    padding: 80px 20px;
+}
+.text-center {
+    text-align: center!important;
+    color: #fff!important;
+}
+.error-page h1 {
+    font-size: 200px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff!important;
+}
+
+.text-secondary-2 {
+    color: #fff !important;
+    font-size: 25px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
 }
