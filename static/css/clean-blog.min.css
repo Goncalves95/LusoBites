@@ -3,30 +3,8 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
  */
-body {
-    font-size: 20px;
-    color: #212529;
-    font-family: Lora, 'Times New Roman', serif;
-}
-
-p {
-    line-height: 1.5;
-    margin: 30px 0;
-}
-
-p a {
-    text-decoration: underline;
-}
 
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 800;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 a {
     color: #212529;
@@ -385,22 +363,4 @@ form .form-group:first-child .floating-label-form-group {
     text-transform: uppercase;
     border-radius: 0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.btn-primary {
-    background-color: #0085a1;
-    border-color: #0085a1;
-}
-
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:hover {
-    color: #fff;
-    background-color: #00657b !important;
-    border-color: #00657b !important;
-}
-
-.btn-lg {
-    font-size: 16px;
-    padding: 25px 35px;
 }

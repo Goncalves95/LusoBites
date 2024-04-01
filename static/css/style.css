@@ -7,12 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-.fa-solid, .fas {
-    /* font-weight: 900; */
-    color: #fff;
-    font-size: 20px;
-}
-
 /* ---------------------------- Style to HERO Section ----------------------------*/
 .site-heading {
     text-align: center;
@@ -239,8 +233,6 @@ header .masthead .post-heading .meta a {
     object-fit: cover;
 }
 
-
-
 .post-link {
     text-decoration: none;
     color: #445261;
@@ -378,6 +370,12 @@ footer > a {
     color: black;
 }
 
+footer .fa-solid, .fas {
+    /* font-weight: 900; */
+    color: #fff;
+    font-size: 20px;
+}
+
 /* ---------------------------- Style to ERROR PAGES ----------------------------*/
 
 body{margin-top:20px;}
@@ -416,7 +414,7 @@ section {
 
 .text-secondary {
     color: #fff !important;
-    font-size: 200px!important;
+    font-size: 30px;
 }
 
 .mb-4 {
