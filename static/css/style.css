@@ -91,49 +91,20 @@ body {
     text-transform: uppercase;
 }
 
-header .masthead {
-    background: no-repeat center center;
-    background-color: #868e96;
-    background-attachment: scroll;
-    position: relative;
-    background-size: cover;
-}
-
-
-
 .masthead {
     overflow: hidden;
     position: relative;
     display: inline-block;
     width: 100%;
     background-size: cover;
+    z-index: 1;
+    background-image: url('https://afar.brightspotcdn.com/dims4/default/6a41642/2147483647/strip/false/crop/1440x720+0+0/resize/1440x720!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2F91%2Fe5%2F098422d443269033550b65c333b2%2Fportugese-food-pastel-de-nata-tatiana-bralnina-shutterstock.jpg');
 }
 
 .masthead-text {
-    color: white;
+    color: #fff;
     position: relative;
-    z-index: 0;
-}
-
-.masthead-image {
-    position: relative;
-    overflow: hidden;
-    background-color: #212529;
-    opacity: .5;
-}
-
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
+    z-index: 2;
 }
 
 .overlay {
@@ -143,8 +114,8 @@ header .masthead {
     height: 100%;
     width: 100%;
     background-color: #212529;
-    opacity: .2;
-    z-index: 1;
+    opacity: .4;
+    z-index: 2;
 }
 
 header .masthead .page-heading,
@@ -338,6 +309,8 @@ header .masthead .post-heading .meta a {
 .page-section {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .section-heading {
@@ -377,6 +350,7 @@ footer .fa-solid, .fas {
 /* ---------------------------- Style to ERROR PAGES ----------------------------*/
 
 body{margin-top:20px;}
+
 .cover-background {
     position: relative !important;
     background-size: cover !important;
@@ -410,9 +384,9 @@ section {
     color: #fff!important;
 }
 
-.text-secondary {
+.text-secondary-2 {
     color: #fff !important;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .mb-4 {
