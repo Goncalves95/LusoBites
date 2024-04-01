@@ -63,6 +63,8 @@ img::-moz-selection {
     background: 0 0;
 }
 
+/* ---------------------------- Style to NAVBAR ----------------------------*/
+
 #mainNav {
     position: absolute;
     border-bottom: 1px solid #152e49;
@@ -156,6 +158,8 @@ img::-moz-selection {
 }
 
 
+/* ---------------------------- Style to HERO Section ----------------------------*/
+
 header .masthead .overlay {
     position: absolute;
     top: 0;
@@ -248,6 +252,8 @@ header.masthead .post-heading .meta a {
         font-size: 30px;
     }
 }
+
+/* ---------------------------- Style to Geral to buttons  ----------------------------*/
 
 .btn {
     font-size: 14px;
