@@ -15,6 +15,7 @@ class PostList(generic.ListView):
     template_name = "lusobites/index.html"
     paginate_by = 6
 
+
 class Recipe(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "lusobites/recipes.html"
@@ -29,7 +30,6 @@ def search_recepi(request):
 
     else:
         return render(request, 'search_recepi.html', {'searched': searched, 'recipe': Recipes})
-
 
 
 def post_detail(request, slug):
@@ -60,7 +60,7 @@ def post_detail(request, slug):
                 request, messages.SUCCESS,
                 'Comment submitted and awaiting approval'
             )
-    
+
     comment_form = CommentForm()
 
     return render(
@@ -97,7 +97,6 @@ def comment_edit(request, slug, comment_id):
                                  'Error updating comment!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
-
 
 
 def comment_delete(request, slug, comment_id):

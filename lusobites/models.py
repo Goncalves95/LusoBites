@@ -6,6 +6,7 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 # Create your models here.
 
+
 class Category(models.Model):
     """
     Model for Category
@@ -15,6 +16,7 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class Post(models.Model):
     """
@@ -39,7 +41,7 @@ class Post(models.Model):
 
     def __str__(self):
         return f"{self.title} | written by {self.author}"
-    
+
     def number_of_likes(self):
         return self.likes.count()
 
