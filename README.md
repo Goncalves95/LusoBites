@@ -1,4 +1,4 @@
-![LUSO Bites logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![LUSO Bites logo](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712002531/luso_bites_logo_rvmr0h.png)
 
 # Welcome Luso Bites, 
 
@@ -6,7 +6,7 @@ Your culinary haven for exploring and savoring the rich gastronomic tradition of
 
 Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
 
-![Responsiveness of the website]()
+![Responsiveness of the website](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712002416/about_web_ucvmdr.png)
 
 ## Table of content
 
@@ -58,7 +58,7 @@ A visitor to our blog can be an amateur in the kitchen or even a professional to
 
 #### Blog Colour
 
-![Colour Palette]()
+![Colour Palette](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712003287/color_palett_rrqj2w.png)
 
 Given that the core of my platform is centered on the world of Portuguese cuisine, I opted for an immaculate white background, accompanied by green details (thus representing the vivid color of nature), and reds (thus representing Portugal).
 
@@ -195,7 +195,7 @@ No errors were found when passing the CSS file through the [W3C CSS Validator](h
 <details>
 <summary>Result</summary>
 
-![CSS validation results]()
+![CSS validation results](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712003288/css_validator_gjw7kj.png)
 </details>
 
 ### JavaScript Validation
@@ -205,7 +205,7 @@ No errors were found when passing through [Jshint](https://jshint.com/).
 <details>
 <summary>Result</summary>
 
-![JavaScript validation results]()
+![JavaScript validation results](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712003290/javascript_validator_zczikt.png)
 </details>
 
 ### Python Linter Validation
@@ -279,7 +279,7 @@ Custom Error Pages have been implemented to offer users more information about t
 
 ![header logged out]()
 
-![header logged in]()
+![header logged in](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712002407/nav_bar_logedin_web_cr2a1m.png)
 
 **Logo**
 
