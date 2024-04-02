@@ -75,38 +75,38 @@ The main font used for the body is the elegant Orienta font. The logo, painting 
 <details>
 <summary>Home Page</summary>
 
-![Home Page]()
+![Home Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042192/wireframe_home_web_g5dqje.png)
 </details>
 
 <details>
 <summary>Home Page Mobile</summary>
 
-![Home Page Mobile]()
+![Home Page Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042175/wireframe_home_mobile_taz7ek.png)
 </details>
 
 <details>
-<summary>Gallery</summary>
+<summary>About</summary>
 
-![Gallery]()
+![About](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042195/wireframes_about_web_lpgemj.png)
 </details>
 
 <details>
-<summary>Gallery Mobile</summary>
+<summary>About Mobile</summary>
 
-![Gallery]()
+![About Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042174/wireframe_about_mobile_fgyjcz.png)
 </details>
 
 <details>
 <summary>The Recipes</summary>
 
-![The Recipes]()
+![The Recipes](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042195/wireframe_recipes_web_dlobfv.png)
 
 </details>
 
 <details>
 <summary>The Recipes Mobile</summary>
 
-![The Recipes Mobile]()
+![The Recipes Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042178/wireframe_recipe_mobile_sdt4kb.png)
 
 </details>
 
@@ -258,6 +258,7 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 ## Bugs 
 
 ### Fixed Bugs
+- Transporting the static files to heroku. helping follow the steps on [djangoproject](https://docs.djangoproject.com/en/4.2/howto/static-files/)
 
 ### Unfixed bugs:
 
@@ -391,8 +392,15 @@ The site is now live and operational.
 ## Credits
 
 ### Code
+Inspiration on tho follwing ptojects:
+- [I Think Therefore I Blog](https://github.com/Code-Institute-Solutions/blog/blob/main/08_templates/01_base_template/base.html) - Following the bases for make a blog in django and creat a data base.
+- [Thorin and Company](https://thorin-and-company-nando95-241442fa6743.herokuapp.com/) - Inspirations to styling and form.
+- [Masterpiece](https://masterpiece23-cbdad7ea4f9e.herokuapp.com/) - Inspiration from Joonas Timlin.
 
 ### Media and Content
+- [GoodFood](https://www.bbcgoodfood.com/) - Used to make the recipes and pictures.
+- [Lucidchart](https://lucid.app/documents#/dashboard) - used to create the database schema design.
+- [PixaBay](https://pixabay.com/pt/), [Unsplash](https://unsplash.com/pt-br) - Some fotos and pictures for the blog.
 
 [def]: #layout
 [def2]: #live-website
