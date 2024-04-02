@@ -134,42 +134,36 @@ All HTML pages were run through the [W3C HTML Validator](https://validator.w3.or
 <details>
 <summary>Home Page</summary>
 
-![Home Page]()
+![Home Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712051930/html_validator_home_fmh6dk.png)
 </details>
 
 <details>
-<summary>About Us</summary>
+<summary>About Page</summary>
 
-![About Us]()
+![About Us](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712051926/html_validator_about_f30gsd.png)
 </details>
 
 <details>
 <summary>Recipes Page</summary>
 
-![Recipes Page]()
-</details>
-
-<details>
-<summary>Recipe Details</summary>
-
-![Recipe Details]()
+![Recipes Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712051938/html_validator_recipes_qruo2n.png)
 </details>
 
 <summary>Logout</summary>
 
-![Logout]()
+![Logout](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712051934/html_validator_login_jmyjsx.png)
 </details>
 
 <details>
 <summary>Sign Up</summary>
 
-![Sign Up]()
+![Sign Up](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712051934/html_validator_login_jmyjsx.png)
 </details>
 
 <details>
 <summary>Login</summary>
 
-![Login]()
+![Login](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712051934/html_validator_login_jmyjsx.png)
 </details>
 
 <details>
