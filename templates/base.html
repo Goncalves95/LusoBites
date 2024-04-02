@@ -88,13 +88,13 @@
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-white">
+                <div class="navbar-text text-white">
                     {% if user.is_authenticated %}
-                    <h6 class="text-end m-3">Hello {{ user }}</h6>
+                    <p class="text-end m-3">Hello {{ user }}</p>
                     {% else %}
-                    <h6 class="text-end m-3">You are not logged in</h6>
+                    <p class="text-end m-3">You are not logged in</p>
                     {% endif %}
-                </span>
+                </div>
             </div>
         </div>
     </nav>
