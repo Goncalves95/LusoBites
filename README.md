@@ -166,6 +166,7 @@ All HTML pages were run through the [W3C HTML Validator](https://validator.w3.or
 
 <details>
 <summary>Recipe Update</summary>
+</details>
 
 ### CSS Validation
 
