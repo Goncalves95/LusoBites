@@ -49,6 +49,7 @@ Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
     - [Create files/directories](#create-filesdirectories)
     - [Update Heroku Config Vars](#update-heroku-config-vars)
     - [Deploy](#deploy)
+  - [Comments](#comments)
   - [Languages](#languages)
   - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
   - [Credits](#credits)
@@ -353,6 +354,7 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 ### Unfixed bugs:
 - Search Field:
 - I couldn't get the recipe/ingredient search field to work so I decided to remove it. I followed several tutorials to try to resolve it, to no avail. I did it in the models in the views, html page and urls, it worked, opening the html page with the search text but I couldn't get it to search for the recipe and pull it from the database.
+- The messages appeared until I made a new model. After that I couldn't get them to appear to the user. They are being made by the system but do not appear visible.
 
 ### Custom error pages
 
@@ -407,8 +409,6 @@ Custom Error Pages have been implemented to offer users more information about t
 - The implementation of Django AllAuth facilitated the establishment of essential user functionalities such as Sign Up, Log In, and Log Out.
 
 **Messages**
-
-![messages]()
 
 - To enhance user experience, success messages are incorporated to provide immediate feedback when users successfully log in or log out.
 
@@ -466,6 +466,38 @@ Add the following Config Vars in Heroku:
 - Click View to view the deployed site.
 
 The site is now live and operational.
+
+## Comments
+<details>
+<summary>Waiting to aprovel</summary>
+
+![Comment waiting for aprovel](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044477/comment_area_web_awotl6.png)
+</details>
+
+<details>
+<summary>Update comment</summary>
+
+![Update Comment](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044480/comment_box_edit_web_i81cnm.png)
+</details>
+
+<details>
+<summary>Delete message</summary>
+
+![Message to delete comment](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044498/model_delete_web_oo8j0c.png)
+</details>
+
+<details>
+<summary>Loged in</summary>
+
+![Comments with loged in](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712053058/comments_nmckpf.png)
+</details>
+
+<details>
+<summary>Loged out</summary>
+
+![Comments Loged out](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712053110/Captura_de_ecra%CC%83_2024-04-02_a%CC%80s_12.17.58_mhgkso.png)
+</details>
+
 
 ## Languages
 
