@@ -7,6 +7,12 @@ body {
     overflow-x: hidden;
 }
 
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    --bs-gutter-x: 0 !important;
+}
+
 /* ---------------------------- Style to HERO Section ----------------------------*/
 .site-heading {
     text-align: center;
@@ -98,7 +104,6 @@ body {
     width: 100%;
     background-size: cover;
     z-index: 1;
-    background-image: url('https://afar.brightspotcdn.com/dims4/default/6a41642/2147483647/strip/false/crop/1440x720+0+0/resize/1440x720!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2F91%2Fe5%2F098422d443269033550b65c333b2%2Fportugese-food-pastel-de-nata-tatiana-bralnina-shutterstock.jpg');
 }
 
 .masthead-text {
@@ -107,22 +112,11 @@ body {
     z-index: 2;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #212529;
-    opacity: .4;
-    z-index: 2;
-}
-
 header .masthead .page-heading,
 header .masthead .post-heading,
 header .masthead .site-heading {
     padding: 200px 0 150px;
-    color: #fff;
+    color: #A58354;
 }
 
 @media only screen and (min-width:768px) {
@@ -151,6 +145,7 @@ header .masthead .site-heading .subheading {
     font-weight: 300;
     line-height: 1.1;
     display: block;
+    color: black;
     margin: 10px 0 0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
