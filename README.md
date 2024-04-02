@@ -75,38 +75,38 @@ The main font used for the body is the elegant Orienta font. The logo, painting 
 <details>
 <summary>Home Page</summary>
 
-![Home Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042192/wireframe_home_web_g5dqje.png)
+![Home Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044584/wireframe_home_web_a9ioyb.png)
 </details>
 
 <details>
 <summary>Home Page Mobile</summary>
 
-![Home Page Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042175/wireframe_home_mobile_taz7ek.png)
+![Home Page Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044567/wireframe_home_mobile_mrrmqs.png)
 </details>
 
 <details>
 <summary>About</summary>
 
-![About](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042195/wireframes_about_web_lpgemj.png)
+![About](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044584/wireframes_about_web_kvonpk.png)
 </details>
 
 <details>
 <summary>About Mobile</summary>
 
-![About Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042174/wireframe_about_mobile_fgyjcz.png)
+![About Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044563/wireframe_about_mobile_fvvthm.png)
 </details>
 
 <details>
 <summary>The Recipes</summary>
 
-![The Recipes](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042195/wireframe_recipes_web_dlobfv.png)
+![The Recipes](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044585/wireframe_recipes_web_gxszom.png)
 
 </details>
 
 <details>
 <summary>The Recipes Mobile</summary>
 
-![The Recipes Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712042178/wireframe_recipe_mobile_sdt4kb.png)
+![The Recipes Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044575/wireframe_recipe_mobile_ffbaph.png)
 
 </details>
 
@@ -167,27 +167,6 @@ All HTML pages were run through the [W3C HTML Validator](https://validator.w3.or
 <details>
 <summary>Recipe Update</summary>
 
-![Recipe Update]()
-</details>
-
-<details>
-<summary>Recipe Delete</summary>
-
-![Recipe Delete]()
-</details>
-
-<details>
-<summary>Comment Update</summary>
-
-![Comment Update]()
-</details>
-
-<details>
-<summary>Comment Delete</summary>
-
-![Comment Delete]()
-</details>
-
 ### CSS Validation
 
 No errors were found when passing the CSS file through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
@@ -213,46 +192,58 @@ No errors were found when passing through [Jshint](https://jshint.com/).
 All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 
 <details>
-<summary>admin.py</summary>
+<summary>manage.py</summary>
 
-![Result]()
-</details>
-
-<details>
-<summary>froms.py</summary>
-
-![Result]()
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044443/python_manage_validator_joclbq.png)
 </details>
 
 <details>
 <summary>models.py</summary>
 
-![Result]()
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044459/python_veric_models_ethlbu.png)
+</details>
+
+<details>
+<summary>about/models.py</summary>
+
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044446/python_models_about_validator_q5hhkp.png)
 </details>
 
 <details>
 <summary>lusobites/urls.py</summary>
 
-![Result]()
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044440/python_blog_urls_validator_uytiej.png)
 </details>
 
 <details>
 <summary>views.py</summary>
 
-![Result]()
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044466/python_views_validator_xvcz2x.png)
+</details>
+
+<details>
+<summary>about/views.py</summary>
+
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044463/python_views_about_validator_n3unpy.png)
 </details>
 
 <details>
 <summary>settings.py</summary>
 
-![Result]()
+![Result](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044449/python_settings_validator_optfhf.png)
 
 </details>
 
 <details>
 <summary>luso/urls.py</summary>
 
-![Results]()
+![Results](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044456/python_urls_validator_vfaa5b.png)
+</details>
+
+<details>
+<summary>about/luso/urls.py</summary>
+
+![Results](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044452/python_urls_about_validator_eydrqd.png)
 </details>
 
 ## Bugs 
@@ -278,9 +269,9 @@ Custom Error Pages have been implemented to offer users more information about t
 
 ### Header
 
-![header logged out]()
+![header logged out](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044508/not_logedin_web_lqpkhd.png)
 
-![header logged in](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712002407/nav_bar_logedin_web_cr2a1m.png)
+![header logged in](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044494/message_logedin_web_gmalon.png)
 
 **Logo**
 
