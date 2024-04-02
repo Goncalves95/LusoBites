@@ -6,7 +6,7 @@ Your culinary haven for exploring and savoring the rich gastronomic tradition of
 
 Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
 
-![Responsiveness of the website](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712002416/about_web_ucvmdr.png)
+![The website](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712052662/Captura_de_ecra%CC%83_2024-04-02_a%CC%80s_12.07.45_rxneik.png)
 
 ## Table of content
 
@@ -26,11 +26,11 @@ Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
     - [JavaScript Validation](#javascript-validation)
     - [Python Linter Validation](#python-linter-validation)
   - [Manual Testing](#manual-testing)
-  - [Site Navigation](#site-navigation)
-  - [About Page](#about-page)
-  - [Recipes Page](#recipes-page)
-  - [Recipe Details Page](#recipe-details-page)
-  - [Django All Auth Pages](#django-all-auth-pages)
+    - [Site Navigation](#site-navigation)
+    - [About Page](#about-page)
+    - [Recipes Page](#recipes-page)
+    - [Recipe Details Page](#recipe-details-page)
+    - [Django All Auth Pages](#django-all-auth-pages)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
     - [Unfixed bugs:](#unfixed-bugs)
@@ -76,7 +76,7 @@ The web app has no fixed images. All the images is uploaded.
 
 #### Fonts
 
-The main font used for the body is the elegant Orienta font. The logo, painting titles and footer feature the Sigmar font.
+The main font used for the body is the elegant Orienta font. The logo, recipes titles and footer feature the Sigmar font.
 
 #### Wireframes
 
@@ -251,7 +251,7 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 
 ## Manual Testing
 
-## Site Navigation
+### Site Navigation
 | Element               | Action     | Expected Result                    | Pass/Fail |
 |-----------------------|------------|------------------------------------|-----------|
 | **NavBar**            |            |                                    |           |
@@ -263,7 +263,7 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 | Sign Up Link          | Click      | Open Sign Up Page                 |     Pass      |
 | Logout Link          | Click      | Open Sign Up Page                 |     Pass      |
 
-## About Page
+### About Page
 | Element               | Action  | Expected Result                 | Pass/Fail |
 |-----------------------|---------|---------------------------------|-----------|
 | Picture About          | Display  | Showing the picture from data base |      Pass     |
@@ -272,14 +272,14 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 | Fill up the form | Click | Send the information to data base |     Pass      |
 | Fill up the form | Click | Missing information for fill up apear a message for fill up the fields |     Pass      |
 
-## Recipes Page
+### Recipes Page
 | Element     | Action                  | Expected Result                                                                         | Pass/Fail |
 |-------------|-------------------------|-----------------------------------------------------------------------------------------|-----------|
 | Recipe Card | Display correct content | Display correct image, recipe title, slug and artist from data base                    |     Pass      |
 | recipe Card | Click                   | Clicking on recipe title or slug card takes you to the correct recipe's detail page. |     Pass      |
 | Recipe Card | Pagination              | Site will paginate 6 recipes cards to page                                       |     Pass      |
 
-## Recipe Details Page
+### Recipe Details Page
 | Element                        | Action              | Expected Result                                                                                                         | Pass/Fail |
 |--------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------|-----------|
 | Recipe Content               | Display             | Display correct Recipe image, title, author, description (ingredients and method), and comments                                                |     Pass      |
@@ -309,7 +309,7 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 | Add comment Form submit button | Click               | Success message appears informing the user that the comment has been added                                              |     Fail      |
 | Add comment Form submit button | Click               | Success message fades after 3 seconds                                                                                   |     Fail     |
 
-## Django All Auth Pages
+### Django All Auth Pages
 
 | Element       | Action | Expected Result                                                                                                        | Pass/Fail |
 |---------------|--------|------------------------------------------------------------------------------------------------------------------------|-----------|
