@@ -33,7 +33,9 @@ Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
     - [Header](#header)
     - [Footer](#footer)
     - [Home Page](#home-page)
-    - [User Account Pages](#user-account-pages)
+    - [About Pages](#about-pages)
+    - [Recipes Pages](#recipes-pages)
+    - [Recipe blog Pages](#recipe-blog-pages)
   - [Deployment - Heroku](#deployment---heroku)
     - [Create the Heroku App](#create-the-heroku-app)
     - [Attach the Postgres database](#attach-the-postgres-database)
@@ -253,6 +255,8 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 - Transporting the static files to heroku. helping follow the steps on [djangoproject](https://docs.djangoproject.com/en/4.2/howto/static-files/)
 
 ### Unfixed bugs:
+- Search Field:
+- I couldn't get the recipe/ingredient search field to work so I decided to remove it. I followed several tutorials to try to resolve it, to no avail. I did it in the models in the views, html page and urls, it worked, opening the html page with the search text but I couldn't get it to search for the recipe and pull it from the database.
 
 ### Custom error pages
 
@@ -270,23 +274,39 @@ Custom Error Pages have been implemented to offer users more information about t
 
 ### Header
 
+![header logged in](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044502/nav_bar_logedin_web_npoges.png)
+
 ![header logged out](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044508/not_logedin_web_lqpkhd.png)
 
-![header logged in](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044494/message_logedin_web_gmalon.png)
-
 **Logo**
+![Logo](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044424/nav_mobile_ok8xtj.png)
 
 **Navigation Bar**
+![Navigation Bar](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044502/nav_bar_logedin_web_npoges.png)
+![Navigation Bar Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044422/nav_mobile_-_co%CC%81pia_xkrloc.png)
 
 ### Footer
+![Footer](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044482/footer_web_bx5dhw.png)
 
 ### Home Page
+![Home Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044412/home_page_web_v4nf1l.png)
+![Home Page Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044415/homr_page_mobile_canb6c.png)
 
-### User Account Pages
+### About Pages
+![About Page](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044470/about_web_arilza.png)
+![About Page Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044410/about_page_mobile_jft01j.png)
+
+### Recipes Pages
+![Recipes](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044558/recipes_web_sr2tvn.png)
+![Recipes Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044435/recipes_page_mobile_ityiqc.png)
+
+### Recipe blog Pages
+![Blog Post](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044522/recipe_web_fsvlhf.png)
+![Blog Post Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044433/recipe_page_mobile_yhgep9.png)
 
 **Sign Up, Log in and Log out**
-
-![sign Up, log in and log out]()
+![sign Up, log in and log out](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044514/sign_up_web_vgvysi.png)
+![sign Up, log in and log out Mobile](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044419/log_page_mobile_mpnasj.png)
 
 - The implementation of Django AllAuth facilitated the establishment of essential user functionalities such as Sign Up, Log In, and Log Out.
 
