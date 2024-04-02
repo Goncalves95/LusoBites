@@ -25,6 +25,12 @@ Live Blog- [LUSO Bites](https://luso-bites-9e7b470f6cac.herokuapp.com/)
     - [CSS Validation](#css-validation)
     - [JavaScript Validation](#javascript-validation)
     - [Python Linter Validation](#python-linter-validation)
+  - [Manual Testing](#manual-testing)
+  - [Site Navigation](#site-navigation)
+  - [About Page](#about-page)
+  - [Recipes Page](#recipes-page)
+  - [Recipe Details Page](#recipe-details-page)
+  - [Django All Auth Pages](#django-all-auth-pages)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
     - [Unfixed bugs:](#unfixed-bugs)
@@ -248,6 +254,102 @@ All Python files was check by [CI Python Linter](https://pep8ci.herokuapp.com/).
 
 ![Results](https://res.cloudinary.com/drkrtxaiq/image/upload/v1712044452/python_urls_about_validator_eydrqd.png)
 </details>
+
+## Manual Testing
+
+## Site Navigation
+| Element               | Action     | Expected Result                    | Pass/Fail |
+|-----------------------|------------|------------------------------------|-----------|
+| **NavBar**            |            |                                    |           |
+| Site Name (logo area) | Click      | Redirect to home                   |     Pass      |
+| Home Link             | Click      | Redirect to home                   |      Pass     |
+| About Us Link        | Click      | Open About Us page                |     Pass      |
+| Recipes Link          | Click      | Open Gallery Page                 |     Pass      |
+| Login Link          | Click      | Open Login Page                 |      Pass     |
+| Sign Up Link          | Click      | Open Sign Up Page                 |     Pass      |
+| Logout Link          | Click      | Open Sign Up Page                 |     Pass      |
+
+## About Page
+| Element               | Action  | Expected Result                 | Pass/Fail |
+|-----------------------|---------|---------------------------------|-----------|
+| Picture About          | Display  | Showing the picture from data base |      Pass     |
+| Info text | Display | Showing information about from data base |     Pass      |
+| Fill up the form | Click | Showing message submisson sucess |     Fail      |
+| Fill up the form | Click | Send the information to data base |     Pass      |
+| Fill up the form | Click | Missing information for fill up apear a message for fill up the fields |     Pass      |
+
+## Recipes Page
+| Element     | Action                  | Expected Result                                                                         | Pass/Fail |
+|-------------|-------------------------|-----------------------------------------------------------------------------------------|-----------|
+| Recipe Card | Display correct content | Display correct image, recipe title, slug and artist from data base                    |     Pass      |
+| recipe Card | Click                   | Clicking on recipe title or slug card takes you to the correct recipe's detail page. |     Pass      |
+| Recipe Card | Pagination              | Site will paginate 6 recipes cards to page                                       |     Pass      |
+
+## Recipe Details Page
+| Element                        | Action              | Expected Result                                                                                                         | Pass/Fail |
+|--------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------|-----------|
+| Recipe Content               | Display             | Display correct Recipe image, title, author, description (ingredients and method), and comments                                                |     Pass      |
+| Like button (Outline)          | Click               | Clicking the outlined heart changes it to a solid heart                                                                 |     Pass      |
+| Like button (Solid)            | Click               | Clicking the solid heart changes it back to an outlined heart                                                           |      Pass     |
+| Like button                    | Display             | Button only clickable if user in session                                                                                  |    Pass       |
+| User Comments                  | Display             | Displays correct name, date, time, and comment body                                                                    |     Pass      |
+| User Comments                  | Display             | Comments are ordered oldest to newest                                                                                   |     Pass      |
+| User Comments                  | Display             | Comments that wainting to be aproved dont show for the normal user (just for admin and the author user)                                          |     Pass      |
+| Update comment button          | Display             | Button only visible if user is the comment author                                                                       |     Pass      |
+| Update comment button          | Click               | Change the comment field and buttom to update                                                                                        |    Pass       |
+| Update comment submit button   | Click               | Form submit - page updates and comment displays in comments section with correct content                                |     Pass      |
+| Update comment submit button   | Click               | Success message appears informing the user that the comment has been updated                                            |     Fail     |
+| Update comment submit button   | Click               | Success message fades after 3 seconds                                                                                   |     Fail      |
+| Cancel update comment button   | Click               | Redirects the user back to the recipe detail page                                                                   |      Pass     |
+| Delete comment button          | Display             | Button only visible if the user is the comment author                                                                   |     Pass      |
+| Delete comment button          | Click               | Opens delete comment confirmation page                                                                                  |     Pass      |
+| Confirm delete button          | Click               | Comment is removed from the comment section                                                                             |     Pass      |
+| Confirm delete button          | Click               | Success message appears informing the user that the comment has been deleted                                            |    Fail     |
+| Confirm delete button          | Click               | Success message fades after 3 seconds                                                                                   |    Fail     |
+| Confirm delete button          | Click               | Redirects the user back to the recipe detail page                                                                   |     Pass      |
+| Cancel delete button           | Click               | Redirects the user back to the recipe detail page                                                                   |      Pass     |
+| Add comment Form               | Display             | Form only visible if user is loged in                                                                                    |     Pass      |
+| Add comment Form submit button | Leave empty         | On submit: form won't submit                                                                                            |     Pass      |
+| Add comment Form submit button | Leave empty         | Error message displays                                                                                                  |     Pass      |
+| Add comment Form submit button | Filled in           | Form submit - page updates and comment displays in the comments section with correct content                            |     Pass      |
+| Add comment Form submit button | Click               | Success message appears informing the user that the comment has been added                                              |     Fail      |
+| Add comment Form submit button | Click               | Success message fades after 3 seconds                                                                                   |     Fail     |
+
+## Django All Auth Pages
+
+| Element       | Action | Expected Result                                                                                                        | Pass/Fail |
+|---------------|--------|------------------------------------------------------------------------------------------------------------------------|-----------|
+| **Sign Up**        |                     |                                                                |           |
+| Log in link        | Click               | Redirect to the login page                                     |     Pass      |
+| Username field     | Leave empty         | On submit: form won't submit                                   |      Pass     |
+| Username field     | Insert correct format | On submit: form submit                                         |     Pass      |
+| Username field     | Insert duplicate username | On submit: form won't submit                              |      Pass     |
+| Email field        | Insert incorrect format | On submit: form won't submit                               |      Pass     |
+| Email field        | Insert correct format | On submit: form submit                                         |     Pass      |
+| Email field        | Leave empty         | On submit: form submit                                         |     Pass      |
+| Email field        | Insert duplicate email | On submit: form won't submit                                   |     Pass      |
+| Password field     | Insert incorrect format | On submit: form won't submit                                   |    Pass       |
+| Password field     | Passwords don't match | On submit: form won't submit                                   |     Pass      |
+| Password field     | Insert correct format and passwords match | On submit: form submit                    |     Pass      |
+| Sign Up button(form valid) | Click        | Form submit                                                    |      Pass     |
+| Sign Up button(form valid) | Click        | Redirect to the home page                                      |     Pass      |
+| Sign Up button(form valid) | Click        | Success message confirming login appears                      |     Fail     |
+| Sign Up button(form valid) | Click        | Success message fades after 3 seconds                          |     Fail    |
+| **Log in**         |                     |                                                                |           |
+| Sign up link       | Click               | Redirect to the sign-up page                                   |     Pass      |
+| Username field     | Leave empty         | On submit: form won't submit                                   |      Pass     |
+| Username field     | Insert wrong username | On submit: form won't submit                                   |     Pass      |
+| Password field     | Leave empty         | On submit: form won't submit                                   |     Pass      |
+| Password field     | Insert wrong password | On submit: form won't submit                                   |    Pass       |
+| Login button(form valid) | Click         | Form submit                                                    |      Pass     |
+| Login button(form valid) | Click         | Redirect to the page where user logged in from                                     |     Pass      |
+| Login button(form valid) | Click         | Success message confirming login appears                      |     Fail     |
+| Login button(form valid) | Click         | Success message fades after 3 seconds                          |      Fail     |
+| **Log Out**        |                     |                                                                |           |
+| Logout button      | Click               | Redirect to the homepage                                       |     Pass      |
+| Logout button      | Click               | Success message confirming log out appears                     |      Fail     |
+| Logout button      | Click               | Success message fades after 3 seconds                         |     Fail      |
+
 
 ## Bugs 
 
